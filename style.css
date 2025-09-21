@@ -2,10 +2,97 @@
     font-family : roboto "sans-seriff";
 }
 
-body{
-    margin: 0;
+body, html{
+    margin: 0 ;
+    margin-top: 0;
     padding: 0;
 }
+
+
+
+.header{
+    background-color: #1F2937;
+    margin-top: 0;
+}
+
+.header .navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+.header .navbar{
+    display: flex;
+}
+
+.header .navbar .link{
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.header .hero h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header .hero p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero_section{
+    display: flex;
+}
+
+.hero_section h1{
+
+}
+
+.card-container{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-container h2{
+    margin-bottom: 30px;
+}
+
+.cards{
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indie-card{
+    flex: 1 1 200px;
+    padding: 1rem;
+    text-align: center;
+    width: auto;
+}
+
+.indie-card img{
+    border: solid 3px #3882F6;
+    border-radius: 7px;
+    height: auto;
+}
+
+.indie-card p{
+    font-size: 0.9rem;
+    line-height: 1.4; 
+}
+
+.indie-card img,
+.indie-card h3,
+.indie-card p {
+  width: 100px;          /* same width for all */
+  margin: 5px auto;       /* centers them horizontally */ /*centres a block elementinside its parent*/
+  text-align: center;   /* centers text inside the element */
+}
+
 
 .quote{
     background-color: #E5E7EB;
@@ -48,4 +135,5 @@ body{
     color:#E5E7EB;
     text-align: center;
     font-size: 18px;
+    height: 30px;
 }
